@@ -28,17 +28,17 @@
   , "B":"吳二桂"
   , "C":"吳三桂" }
 ```
-- 首先使用python的open函式讀檔，python3的open函式可選擇編碼方式，由於python3的字串預設編碼都是unicode，而JSON的預設編碼是UTF-8，所以open時要告訴python這個字串是UTF-8編碼才能做後續的字串處理，程式碼如下:
+- 使用`open`函式讀檔，並用`json.load`讀取json檔:
 ```python
 import json
 
-with open('questions.json', 'r', encoding='UTF-8') as f:
-  JsonList = json.load(f)
+with open('questions.json', 'r') as f:
+  json_list = json.load(f)
 ```
 
 - 選擇**第一題的題目**的方法如下:
 ```python
-print(JsonList[0]['Question'])
+print(json_list[0]['Question'])
 ```
 - 列印結果:
 ```
