@@ -1,13 +1,13 @@
 ## 期末專題說明
 - 新增之`questions_example.json`為提供測試之20題範例，其他題目皆以此邏輯出題。
 
-#### 答案繳交系統使用注意事項
+### 答案繳交系統使用注意事項
 - 第一格填入一位組員之__學號__，第二格填入你程式跑出的__答案__
 - **答案請使用規定之JSON格式，例如: 第一題答案A，第二題答案B，第三題答案C，JSON格式應為 ["A", "B", "C"]**
 - 請確認自己程式輸出之答案，__demo當天格式須符合規定，系統才能正確計算分數。__
 ![img](./img/instructions.PNG)
 
-#### 可用資源
+### 可用資源
 1. 中文wiki百科的json檔： https://drive.google.com/open?id=0ByoB_9NkZ9rRa3VUY25TeXRtdnM
 2. 繁體中文wiki的json檔，且content經過斷詞：https://drive.google.com/file/d/0ByoB_9NkZ9rRZWFRa1FiWlZYTDA/view?usp=sharing  
 3. ptt社群網站爬蟲：https://github.com/UDICatNCHU/ptt-web-crawler
@@ -15,7 +15,7 @@
    使用ijson搜尋工具，ijson主要是使用在json過大而不能夠全部loading進記憶體時，採用stream的方式讀取json檔。
 	python3 ijsonSearch.py 查詢的json檔名 查詢的目標類型 查詢目標名稱
 
-#### JSON讀取說明
+### JSON讀取說明
 - 例如題目之格式為：
 ```json
  {"Question":"中華民國第14任總統，民主進步黨第16屆黨主席，同時也是台灣歷史上首位女性元首，她是:" 
