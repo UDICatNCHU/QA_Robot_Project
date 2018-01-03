@@ -5,7 +5,7 @@
 - 第一格填入一位組員之**學號**，第二格填入你程式跑出的**答案**
 - **答案請使用規定之JSON格式，例如: 第一題答案A，第二題答案B，第三題答案C，JSON格式應為 ["A", "B", "C"]**
 - 請確認自己程式輸出之答案，**demo當天格式須符合規定，系統才能正確計算分數。**
-![img](./img/instructions.PNG)
+![img](./img/screen_shot.png)
 
 ### 可用資源
 1. 中文wiki百科的json檔： https://drive.google.com/open?id=0ByoB_9NkZ9rRa3VUY25TeXRtdnM
